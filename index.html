@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Tareitas</title>
+<style>
+  :root { --bg:#faf5fc; --card:#ffffff; --ink:#2a1233; --muted:#6f5a79; --accent:#9300bb; --soft:#f1defa; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#17101c; --card:#221729; --ink:#f4ecf8; --muted:#bfaecb; --accent:#e08cff; --soft:#3a2347; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 18px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  header svg { width:56px; height:56px; border-radius:14px; flex:none; }
+  h1 { font-size:1.7rem; line-height:1.2; margin:0; }
+  h2 { font-size:1.2rem; margin:30px 0 6px; color:var(--accent); }
+  p, li { color:var(--ink); }
+  .meta { color:var(--muted); margin:0 0 18px; }
+  .card { background:var(--card); border-radius:16px; padding:18px 22px; margin:14px 0; box-shadow:0 1px 8px rgba(120,0,160,.08); }
+  ul { padding-left:1.2em; } li { margin:4px 0; }
+  .lang { margin-top:44px; padding-top:10px; border-top:2px solid var(--soft); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <svg viewBox="0 0 512 512" aria-hidden="true">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dd5cff"/><stop offset="1" stop-color="#9300bb"/></linearGradient></defs>
+    <rect width="512" height="512" fill="url(#g)"/><circle cx="256" cy="256" r="150" fill="#fff"/>
+    <ellipse cx="208" cy="232" rx="15" ry="24" fill="#8a00b0"/><ellipse cx="304" cy="232" rx="15" ry="24" fill="#8a00b0"/>
+    <path d="M208 290 Q256 350 304 290" fill="none" stroke="#8a00b0" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="352" cy="166" r="46" fill="#7ee0a6"/><path d="M330 167 L346 183 L376 150" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <h1>Política de privacidad de Tareitas</h1>
+</header>
+<p class="meta">Vigente desde el 12 de noviembre de 2026 · Desarrollado por <strong>carocarito</strong></p>
+
+<div class="card">
+  <p><strong>En resumen:</strong> Tareitas guarda tus tareas <strong>solo en tu teléfono</strong>. No tiene cuentas,
+  no muestra publicidad, no usa analítica ni rastreadores y <strong>no envía tus datos a ningún servidor</strong>.</p>
+</div>
+
+<h2>1. Qué información maneja la app</h2>
+<p>Lo que tú escribes o eliges dentro de la app: tareas (título, descripción, fechas, horarios, repetición), categorías,
+estado de cada tarea, historial de tareas completadas, sesiones de Pomodoro y ajustes (paleta de colores y modo claro u oscuro).
+Todo se guarda en una base de datos dentro del almacenamiento privado de la app en tu dispositivo, al que otras apps no tienen acceso.</p>
+
+<h2>2. Qué NO hace la app</h2>
+<ul>
+  <li>No te pide registrarte ni iniciar sesión.</li>
+  <li>No recopila datos personales, de ubicación, de uso ni identificadores del dispositivo.</li>
+  <li>No incluye publicidad ni herramientas de análisis o rastreo de terceros.</li>
+  <li>No comparte ni vende información a terceros.</li>
+  <li>No envía tus tareas ni ningún otro dato a servidores del desarrollador ni de nadie más.</li>
+</ul>
+
+<h2>3. Permisos que declara y para qué</h2>
+<ul>
+  <li><strong>Notificaciones</strong>: para avisarte cuando termina un ciclo o un descanso del Pomodoro.</li>
+  <li><strong>Vibración</strong>: para que ese aviso vibre, sin sonido.</li>
+  <li><strong>Alarmas exactas</strong>: para que el aviso llegue puntualmente aunque el teléfono esté en reposo.</li>
+  <li><strong>Recibir el arranque del sistema</strong>: para volver a programar los avisos pendientes si reinicias el teléfono.</li>
+  <li><strong>Red</strong> (conexión a internet y estado de red): los incluye por defecto el marco con el que está hecha la app
+      (Flet/Flutter). Tareitas lo usa para comunicar su interfaz con su motor interno dentro del mismo teléfono y no envía tus
+      datos a internet.</li>
+</ul>
+<p>La app no pide acceso a tu ubicación, cámara, micrófono, contactos, fotos ni archivos.</p>
+
+<h2>4. Copias de seguridad</h2>
+<p>Si tienes activada la copia de seguridad de Android en tu cuenta de Google, el sistema puede incluir los datos de la app según tu
+configuración. Eso lo gestiona Google, no Tareitas.</p>
+
+<h2>5. Cómo borrar tus datos</h2>
+<p>Desinstala la app, o en Ajustes de Android → Aplicaciones → Tareitas → Almacenamiento → <em>Borrar datos</em>. Al hacerlo se eliminan
+todas tus tareas y ajustes del dispositivo. No hay copias en ningún servidor.</p>
+
+<h2>6. Menores de edad</h2>
+<p>La app no recopila datos de ninguna persona, incluidos los menores de edad.</p>
+
+<h2>7. Cambios en esta política</h2>
+<p>Si la app cambia de forma que afecte a tu privacidad (por ejemplo, si algún día añade sincronización), esta página se actualizará
+antes y se indicará la nueva fecha de vigencia.</p>
+
+<h2>8. Contacto</h2>
+<p>Para preguntas sobre esta política: <strong><a href="mailto:carocortesti@gmail.com">carocortesti@gmail.com</a></strong></p>
+
+<section class="lang" lang="en">
+  <h1 style="font-size:1.4rem">Privacy policy (English summary)</h1>
+  <p class="meta">Effective November 12, 2026 · Developer: <strong>carocarito</strong></p>
+  <div class="card">
+    <p><strong>Tareitas stores your tasks only on your phone.</strong> It has no accounts, no ads, no analytics or trackers, and it
+    does not send your data to any server.</p>
+  </div>
+  <ul>
+    <li><strong>Data handled:</strong> only what you enter in the app (tasks, categories, history, Pomodoro sessions, settings), kept in
+        the app's private storage on your device.</li>
+    <li><strong>Permissions:</strong> notifications, vibration, exact alarms and boot-completed (to deliver and restore Pomodoro
+        reminders); network permissions are included by the Flet/Flutter framework and are used only for the app's internal
+        communication on the device. No location, camera, microphone, contacts, photos or files.</li>
+    <li><strong>Backups:</strong> if Android backup is enabled in your Google account, the system may include app data according to your
+        settings; that is managed by Google, not by Tareitas.</li>
+    <li><strong>Deleting your data:</strong> uninstall the app or clear its storage in Android settings.</li>
+    <li><strong>Contact:</strong> <a href="mailto:carocortesti@gmail.com">carocortesti@gmail.com</a></li>
+  </ul>
+</section>
+
+</main>
+</body>
+</html>
